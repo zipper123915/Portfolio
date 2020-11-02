@@ -22,7 +22,7 @@ const webpackStream = require('webpack-stream');
 const webpackConfig = require('./webpack.config.js');
 
 // images
-// const imagemin = require('gulp-image');
+const imagemin = require('gulp-image');
 const webp = require('gulp-cwebp');
 const favicons = require('gulp-favicons');
 
